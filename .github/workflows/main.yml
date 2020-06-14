@@ -18,6 +18,9 @@ jobs:
               env:
                   CI: true
 
+            - name: install prettier
+              run: yarn install prettier --dev
+              
             - name: Run prettier
               run: yarn run prettier --write 'src/**/*.{css,js,vue}'
 
