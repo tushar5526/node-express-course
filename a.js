@@ -1,31 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@tushar5526 
-tushar5526
-/
-simple-static-website
-forked from The-Codesis/simple-static-website
-0
-0
-35
- Code
- Pull requests 0 Actions
- Projects 0
- Wiki
- Security 0
- Insights
- Settings
-simple-static-website/js/contact-form-script.js /
-@rahul799 rahul799 Initializing the repo
-980a0a8 10 days ago
-55 lines (48 sloc)  1.56 KB
- 
 $("#contactForm").validator().on("submit", function (event) {
     if (event.isDefaultPrevented()) {
         // handle the invalid form...
